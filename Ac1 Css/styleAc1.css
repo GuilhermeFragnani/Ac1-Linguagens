@@ -4,17 +4,6 @@
     text-align: center;
     padding: 20px;
 }
-.nav ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-nav li {
-    margin:   
- 0 10px;
-}
-
 .menu_lateral {
     height: 100%;
     width: 20%;
@@ -22,10 +11,9 @@ nav li {
     color: black;
     text-shadow: 1px 2px 2px #ccc;
     float: left;
-    position: fixed;
     top: 0;
     bottom: 0;
-    margin-left: 5px;
+    margin-left: 0;
 
 }
 
@@ -33,6 +21,7 @@ nav li {
     text-decoration: none;
     color: black;
     font-family: sans-serif;
+    margin-top:;
 
 }
 
@@ -46,7 +35,6 @@ nav li {
     width:70%;
     height: 100%;
     background-color: white;
-    position: relative;
     top: 0;
     bottom: 0;
     float: right;
@@ -54,9 +42,11 @@ nav li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-right: 50px;
+    margin-top: 50px;
 }
 .principal h1{ /* o p e h1 significa que vai modificar os p e h1 dentro da classe bem-vindo*/
-    text-align: center;
+    text-align: left;
 }
 
 body,html {
